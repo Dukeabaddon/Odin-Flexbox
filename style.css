@@ -18,6 +18,7 @@ nav {
 nav h4 {
     font-weight: bold;
     color: white;
+    font-size: 24px;
 }
 nav ul{
     display: flex;
@@ -77,7 +78,7 @@ nav ul li {
     align-items: center;
     background-color: white;
     height: 70dvh;
-    width: 100vw;
+    width: 100%;
 }
 .information-container h1 {
     color: #1f2937;
@@ -105,4 +106,73 @@ nav ul li {
     flex-direction: column;
     color: gray;
     text-align: center;
+}
+.quote-section {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 70dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote-container p {
+    text-align: right;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.quote-container i {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+.action-section{
+    width: 100%;
+    height: 70dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action-container {
+    padding: 50px 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.action-description h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+.action-description p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.action-container a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+.action-container a:hover {
+    background-color: white;
+    color: #3882f6;
+    transition: ease-in-out 300ms;
+} 
+.footer {
+    width: 100%;
+    height: 15dvh;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
